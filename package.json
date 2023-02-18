@@ -1,7 +1,8 @@
 {
   "name": "gs-mixpanel",
+  "description": "Google Apps Script Mixpanel examples",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "test": "jest"
