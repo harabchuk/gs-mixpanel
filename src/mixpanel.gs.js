@@ -23,6 +23,17 @@ class MixpanelApi {
     this.serviceAccountUser = serviceAccountUser;
     this.serviceAccountKey = serviceAccountKey;
     this.baseUrl = 'https://mixpanel.com/api/2.0/';
+    this.EventsCountType = {
+      TOTAL: 'total',
+      UNIQUE: 'unique',
+      ACTIVE: 'active',
+    };
+    this.BreakdownUnit = {
+      MINUTE: 'minute',
+      HOUR: 'hour',
+      DAY: 'day',
+      MONTH: 'month',
+    };
   }
 
   /**
