@@ -3,6 +3,9 @@ This is a library for Google Apps Script that allows you
 to easily load reports from Mixpanel into Google Sheets or other
 apps.
 
+![Tests status](https://github.com/harabchuk/gs-mixpanel/actions/workflows/tests.yml/badge.svg?event=push)
+
+
 ### Usage
 1. Copy src/mixpanel.gs.js into your Google Apps Script project
 2. Create a new service account for your project in Mixpanel
